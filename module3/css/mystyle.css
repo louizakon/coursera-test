@@ -1,0 +1,137 @@
+.container-fluid{
+	background-color: #838080;
+	box-sizing: border-box;
+	margin: 0px;
+	width: 100%
+}
+
+
+#header-nav{
+    background-color:#838080;
+    color: #000000;
+    border: 2px solid #000000;
+	margin-bottom: 0px;
+	width: 100%;
+	border-radius: 0px;
+}
+#brand{
+	color: #000000;
+	background-color:#838080;
+	font-size: 40px;
+	font-family:"Noto Sans JP", sans-serif;
+	font-color:#000000;
+	text-decoration: none;
+	margin-top: 5px;
+}
+#myNavbar{
+	background-color: #FFFFFF;
+	margin-top:80px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%
+}
+#menu{
+	background-color:#ffffff;
+    clear: both;
+	border-top: 3px solid #000000;
+	margin-top: -3px;
+	display: block;
+	width: 100%;
+	position:relative;
+
+}
+#menu1{
+	color: #000000;
+	font-size: 20px;
+	font-family:"Noto Sans JP", sans-serif;
+	font-color:#000000;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: -30px;
+	background-color: #FFFFFF;
+	border-bottom: 2px solid #000000;
+	border-top: 2px solid #000000;
+	box-sizing: border-box;
+	
+}
+
+#menu2{
+	color: #000000;
+	font-size: 20px;
+	font-family:"Noto Sans JP", sans-serif;
+	font-color:#000000;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom:0px;
+	margin-right: -30px;
+	background-color: #FFFFFF;
+}
+#menu3{
+	color: #000000;
+	font-size: 20px;
+	font-family:"Noto Sans JP", sans-serif;
+	font-color:#000000;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-right: -30px;
+	background-color: #FFFFFF;
+	border-top: 2px solid #000000;
+	box-sizing: border-box;
+}
+.icon-bar{
+	border: 3px solid #000000;
+	box-sizing: border-box;
+	
+}
+
+.navbar-header button.navbar-toggle, navbar-header{
+	border:1px solid #000000;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	
+}
+#box{
+	margin: 0px;
+	width: 100%;
+	clear: both;
+}
+#main-content{
+	text-align: center;
+	
+}
+#myjumbotron{
+	background-color: #ffffff;
+	
+}
+#mymenu{
+	font-size: 40px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+p{
+	background-color: #838080;
+	font-color: #000000;
+	position: relative;
+	clear: both;
+}
+@media(min-width:768px){
+	#myjumbotron{
+		margin-left: -150px;
+	    margin-right: -150px;
+	}
+}
+
+@media(max-width:767px){
+	#myjumbotron{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+}
+
+
