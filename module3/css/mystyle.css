@@ -114,23 +114,67 @@
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	
 }
-p{
+#chicken{
 	background-color: #838080;
 	font-color: #000000;
 	position: relative;
 	clear: both;
+	margin-bottom: -10px;
 }
-@media(min-width:768px){
+#lorem{
+	background-color: #838080;
+	margin-top: 10px;
+}
+@media(min-width: 992px ) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 
+	
 	#myjumbotron{
-		margin-left: -150px;
-	    margin-right: -150px;
+		margin-left: -120px;
+	    margin-right: -120px;
+	}
+	h2, h4{
+		margin-left: -120px;
+	    margin-right: -120px;
+	}
+	h2{
+		margin-bottom: -30px;
+	}
+	h4{
+		margin-top: -30px;
+	}
+	.col-lg-12{
+		width: 100%
+	}
+	
+	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
+	#myjumbotron{
+		margin-left: -80px;
+	    margin-right: -80px;
+	}
+	h2, h4{
+		margin-left: -80px;
+	    margin-right: -80px;
+	}
+	.col-md-12{
+		width: 100%;
 	}
 }
 
-@media(max-width:767px){
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12
 	#myjumbotron{
 		margin-left: 40px;
 		margin-right: 40px;
+	}
+	h2, h4{
+		margin-left: 40px;
+	    margin-right: 40px;
+	}
+	.col-sm-12{
+		width: 100%;
 	}
 }
 
